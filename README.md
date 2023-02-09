@@ -1,2 +1,2 @@
 # Contra-Sformer
-Source code will be made available upon acceptance.
+Source code will be made available as soon as possible.
