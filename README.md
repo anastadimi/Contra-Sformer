@@ -18,6 +18,9 @@ and reference videos. These are then fed into an actionaware
 Transformer with multi-head attention (A-Transformer)
 that produces inter-video contrastive features at frame level,
 representative of the skill similarity/deviation between the two
-videos.
+videos. Contra-Sformer achieves
+competitive performance (Spearman 0.65 - 0.89), with a normalized
+mean absolute error between 4.6% - 10.7% on all tasks
+and across validation setups.
 
 ![Contra-Sformer](ContraSformer.jpg)
