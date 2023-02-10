@@ -1,4 +1,6 @@
 # Keep Your Eye on the Best: Contrastive Regression Transformer for Skill Assessment in Robotic Surgery
+Dimitrios Anastasiou, Yueming Jin, Danail Stoyanov, and Evangelos Mazomenos
+
 Code for the paper "Keep Your Eye on the Best: Contrastive Regression Transformer for Skill Assessment in Robotic Surgery", published in IEEE Robotics and Automation Letters (RA-L).
 To be presented in IROS 2023, Detroit, Michigan, USA.
 
