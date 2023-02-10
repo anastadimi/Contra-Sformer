@@ -17,3 +17,5 @@ Transformer with multi-head attention (A-Transformer)
 that produces inter-video contrastive features at frame level,
 representative of the skill similarity/deviation between the two
 videos.
+
+![Screenshot](screenshot.png)
