@@ -25,3 +25,13 @@ Sformer achieves competitive performance (Spearman Correlation 0.65 -
 13.4% on all tasks and across validation setups.
 
 ![Contra-Sformer](ContraSformer.jpg)
+
+When optimized, Contra-Sformer generates features
+that faithfully represent the similarity/deviation between the
+two executions and encode information indicative of suboptimal
+execution/errors, without requiring explicit error annotations.
+This is validated against manual error annotations from
+[1], and can be exploited for providing targeted feedback and
+real-time assessment to trainees.
+
+![Contra-Sformer](ContraSformer.jpg)
