@@ -31,7 +31,7 @@ that faithfully represent the similarity/deviation between the
 two executions and encode information indicative of suboptimal
 execution/errors, without requiring explicit error annotations.
 This is validated against manual error annotations from
-[1], and can be exploited for providing targeted feedback and
+[Hutchinson et. al](https://arxiv.org/abs/2106.11962), and can be exploited for providing targeted feedback and
 real-time assessment to trainees. Example video [link](https://liveuclac-my.sharepoint.com/:v:/g/personal/rmapdan_ucl_ac_uk/EQMDTsQqhpBFmnzlMPCEyuwBU8V8-ev6rAgDlh7RG6e9Ng?e=tbDXsz).
 
 ### Packages
