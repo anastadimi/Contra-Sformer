@@ -94,9 +94,23 @@ Place resnet18_ftrs.zip and splits.zip in the root directory and unzip them. The
 ### Models
 We also provide the saved models in .pth format (download [here]((https://liveuclac-my.sharepoint.com/:u:/g/personal/rmapdan_ucl_ac_uk/EW5m3Y9J_0VLq9asQemRzEkBLcbDXryIhYJq9h4FgGaQpg?e=7mZ30A)).
 
-### To run the code
-Run experiment.py and specify the task (knot_tying,needle_passing,suturing) and the cross-validation scheme (loso,louo,4fold).
+### Run the code
+To train and evaluate the model, simply run experiment.py and specify the task (knot_tying,needle_passing,suturing) and the cross-validation scheme (loso,louo,4fold).
 
 ```
 python experiment.py suturing loso
+```
+
+### To cite our work please use:
+```
+@article{Anastasiou2023,
+  doi = {10.1109/lra.2023.3242466},
+  url = {https://doi.org/10.1109/lra.2023.3242466},
+  year = {2023},
+  publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+  pages = {1--8},
+  author = {Dimitrios Anastasiou and Yueming Jin and Danail Stoyanov and Evangelos Mazomenos},
+  title = {Keep Your Eye on the Best: Contrastive Regression Transformer for Skill Assessment in Robotic Surgery},
+  journal = {{IEEE} Robotics and Automation Letters}
+}
 ```
