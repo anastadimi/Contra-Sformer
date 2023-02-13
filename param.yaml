@@ -1,0 +1,50 @@
+suturing:
+  loso:
+    batch_size_train: 40
+    alpha: 0.65
+    lr: 0.0005
+    epochs: 300
+  louo:
+    batch_size_train: 40
+    alpha: 0.65
+    lr: 0.0005
+    epochs: 300
+  4fold:
+    batch_size_train: 40
+    alpha: 0.65
+    lr: 0.0005
+    epochs: 300
+
+knot_tying:
+  loso:
+    batch_size_train: 16
+    alpha: 0.5
+    lr: 0.0005
+    epochs: 300
+  louo:
+    batch_size_train: 16
+    alpha: 0.5
+    lr: 0.0005
+    epochs: 300
+  4fold:
+    batch_size_train: 16
+    alpha: 0.65
+    lr: 0.0005
+    epochs: 300
+  
+needle_passing:
+  loso:
+    batch_size_train: 40
+    alpha: 0.5
+    lr: 0.00005
+    epochs: 600
+  louo:
+    batch_size_train: 40
+    alpha: 0.65
+    lr: 0.00005
+    epochs: 600
+  4fold:
+    batch_size_train: 40
+    alpha: 0.5
+    lr: 0.00005
+    epochs: 600
