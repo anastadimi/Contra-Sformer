@@ -94,4 +94,11 @@ Your file structure should look like this:
 
 ```
 ### Saved models
-We also provide the saved models in a .pth format (download [here](here)).
+We also provide the saved models in .pth format (download [here](here)).
+
+### To run the code
+Run experiment.py and specify the task (knot_tying,needle_passing,suturing) and the cross-validation scheme (loso,louo,4fold).
+
+```
+python experiment.py suturing loso
+```
