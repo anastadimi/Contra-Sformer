@@ -32,6 +32,6 @@ two executions and encode information indicative of suboptimal
 execution/errors, without requiring explicit error annotations.
 This is validated against manual error annotations from
 [1], and can be exploited for providing targeted feedback and
-real-time assessment to trainees.
+real-time assessment to trainees. Example video at [Markdown - Link](#Link)
 
-![Contra-Sformer](ContraSformer.jpg)
+![Contra-Sformer](deviation.jpg)
