@@ -44,11 +44,9 @@ conda env create -f env.yml
 ### Data preparation
 We provide the extracted features from the ResNet-18 (resnet18_ftrs.zip). To request them, please send an email to <dimitrios.anastasiou.21@ucl.ac.uk>.
 
-After downloading the features, unzip them and place them in the resnet18_ftrs directory.
+Also, follow this [link](https://liveuclac-my.sharepoint.com/:u:/g/personal/rmapdan_ucl_ac_uk/EdkZJGdptQ5Bpf_1YdV8z60Bwej1wQXu0FnOiq9gY_UWBA?e=4VAvbk) and download splits.zip. This file contains .csv files specifying the train and test samples along with their GRS labels for each fold of the cross-validation schemes and tasks.
 
-Also, follow this [link](https://liveuclac-my.sharepoint.com/:u:/g/personal/rmapdan_ucl_ac_uk/EdkZJGdptQ5Bpf_1YdV8z60Bwej1wQXu0FnOiq9gY_UWBA?e=4VAvbk) to download the splits.zip and place them in the splits directory. splits.zip contains .csv files specifying the train and test samples along with their GRS labels for each fold of the cross-validation schemes and tasks.
-
-Your file structure should look like this:
+Place resnet18_ftrs.zip and splits.zip in the root directory and unzip them. Then, your file structure should look like this:
 ```
 .
 ├── resnet18_ftrs               # directory containing the extracted features from the ResNet-18 for every task/cross-val scheme/fold
