@@ -95,7 +95,7 @@ Place resnet18_ftrs.zip and splits.zip in the root directory and unzip them. The
 We also provide the saved models in .pth format (download [here](https://liveuclac-my.sharepoint.com/:u:/g/personal/rmapdan_ucl_ac_uk/EW5m3Y9J_0VLq9asQemRzEkBLcbDXryIhYJq9h4FgGaQpg?e=7mZ30A)).
 
 ### Run the code
-To train and evaluate the model, simply run experiment.py and specify the task (knot_tying,needle_passing,suturing) and the cross-validation scheme (loso,louo,4fold).
+To train and evaluate the model, simply run experiment.py and specify the task (knot_tying/needle_passing/suturing) and the cross-validation scheme (loso/louo/4fold).
 
 ```
 python experiment.py suturing loso
