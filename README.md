@@ -46,7 +46,7 @@ We provide the extracted features from the ResNet-18 to be used as the input in 
 
 After downloading the features (resnet18_ftrs.zip), unzip them and place them in the resnet18_ftrs directory.
 
-Also, follow this link to download the splits.zip and place them in the splits directory. splits.zip contains .csv files specifying the train and test samples along with their GRS labels corresponding to each fold of the cross-validation schemes and tasks.
+Also, follow this [link](https://liveuclac-my.sharepoint.com/:u:/g/personal/rmapdan_ucl_ac_uk/EdkZJGdptQ5Bpf_1YdV8z60Bwej1wQXu0FnOiq9gY_UWBA?e=4VAvbk) to download the splits.zip and place them in the splits directory. splits.zip contains .csv files specifying the train and test samples along with their GRS labels for each fold of the cross-validation schemes and tasks.
 
 Your file structure should look like this:
 ```
@@ -93,3 +93,5 @@ Your file structure should look like this:
 └── experiment.py
 
 ```
+### Saved models
+We also provide the saved models in a .pth format (download [here](here)).
