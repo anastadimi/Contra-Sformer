@@ -87,9 +87,9 @@ Your file structure should look like this:
 │   ├── needle_passing         # same structure as above
 │   └── suturing               # same structure as above
 |
-├── models.py
-├── main.py
-├── utils.py
+.
+.
+.
 └── experiment.py
 
 ```
