@@ -49,7 +49,7 @@ After downloading the features (resnet18_ftrs.zip), unzip them and place them in
 Also, follow this link to download the splits.zip and place them in the splits directory. splits.zip contains .csv files specifying the train and test samples along with their GRS labels corresponding to each fold of the cross-validation schemes and tasks.
 
 Your file structure should look like this:
-
+```
 .
 ├── resnet18_ftrs               # directory containing the extracted features from the ResNet-18 for every task/cross-val scheme/fold
 │   ├── knot_tying
@@ -92,3 +92,4 @@ Your file structure should look like this:
 ├── utils.py
 └── experiment.py
 
+```
