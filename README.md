@@ -1,4 +1,4 @@
-# Keep Your Eye on the Best: Contrastive Regression Transformer for Skill Assessment in Robotic Surgery (code to be released soon)
+# Keep Your Eye on the Best: Contrastive Regression Transformer for Skill Assessment in Robotic Surgery
 Authors: Dimitrios Anastasiou, Yueming Jin, Danail Stoyanov, and Evangelos Mazomenos
 
 Code for the paper "Keep Your Eye on the Best: Contrastive Regression Transformer for Skill Assessment in Robotic Surgery", published in IEEE Robotics and Automation Letters (RA-L).
@@ -38,7 +38,7 @@ real-time assessment to trainees. Example video [link](https://liveuclac-my.shar
 To set up a conda environment using the provided env.yaml file, simply run:
 
 ```
-conda env create -f env.yaml
+conda env create -f env.yml
 ```
 
 ### Data preparation
@@ -93,8 +93,8 @@ Your file structure should look like this:
 └── experiment.py
 
 ```
-### Saved models
-We also provide the saved models in .pth format (download [here](here)).
+### Models
+We also provide the saved models in .pth format (download [here]((https://liveuclac-my.sharepoint.com/:u:/g/personal/rmapdan_ucl_ac_uk/EW5m3Y9J_0VLq9asQemRzEkBLcbDXryIhYJq9h4FgGaQpg?e=7mZ30A)).
 
 ### To run the code
 Run experiment.py and specify the task (knot_tying,needle_passing,suturing) and the cross-validation scheme (loso,louo,4fold).
