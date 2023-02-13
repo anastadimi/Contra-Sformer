@@ -42,7 +42,53 @@ conda env create -f env.yaml
 ```
 
 ### Data preparation
-The file structure looks like this:
+We provide the extracted features from the ResNet-18 to be used as the input in the network. To request the features (resnet18_ftrs.zip) please send an email to <dimitrios.anastasiou.21@ucl.ac.uk>.
 
+After downloading the features (resnet18_ftrs.zip), unzip them and place them in the resnet18_ftrs directory.
 
+Also, follow this link to download the splits.zip and place them in the splits directory. splits.zip contains .csv files specifying the train and test samples along with their GRS labels corresponding to each fold of the cross-validation schemes and tasks.
+
+Your file structure should look like this:
+
+.
+├── resnet18_ftrs               # directory containing the extracted features from the ResNet-18 for every task/cross-val scheme/fold
+│   ├── knot_tying
+|   |   ├── loso
+|   |   |    ├── 1out
+|   |   |        ├── KT_B001.mat # features stored in a .mat format
+|   |   |        .
+|   |   |    .   .
+|   |   |    .   .
+|   |   |    .   └── KT_I005.mat
+|   |   |     
+|   |   |     
+|   |   |    └── 5out
+|   |   |
+|   |   ├── louo
+|   |   └── 4fold
+|   |
+│   ├── needle_passing         # same structure as above
+│   └── suturing               # same structure as above
+|
+├── splits
+│   ├── knot_tying
+|   |   ├── loso
+|   |   |    ├── 1out
+|   |   |        ├── train.csv
+|   |   |    .   └── val.csv
+|   |   |    .  
+|   |   |    .  
+|   |   |    
+|   |   |    └── 5out
+|   |   ├── louo
+|   |   ├── 4fold
+|   |   └── ref.csv            # reference video along with its label
+|   |
+│   ├── needle_passing         # same structure as above
+│   └── suturing               # same structure as above
+|
+├── models.py
+├── main.py
+├── utils.py
+└── experiment.py
 
