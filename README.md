@@ -88,7 +88,7 @@ Place resnet18_ftrs.zip and splits.zip in the root directory and unzip them. The
 .
 .
 .
-└── experiment.py
+└── utils.py
 
 ```
 ### Models
