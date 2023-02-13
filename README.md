@@ -38,6 +38,6 @@ real-time assessment to trainees. Example video [link](https://liveuclac-my.shar
 To set up a conda environment using the provided env.yaml file, simply run:
 
 ```
-conda
+conda env create -f env.yaml
 ```
 
