@@ -103,14 +103,14 @@ python experiment.py suturing loso
 
 ### To cite our work please use:
 ```
-@article{Anastasiou2023,
-  doi = {10.1109/lra.2023.3242466},
-  url = {https://doi.org/10.1109/lra.2023.3242466},
-  year = {2023},
-  publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
-  pages = {1--8},
-  author = {Dimitrios Anastasiou and Yueming Jin and Danail Stoyanov and Evangelos Mazomenos},
-  title = {Keep Your Eye on the Best: Contrastive Regression Transformer for Skill Assessment in Robotic Surgery},
-  journal = {{IEEE} Robotics and Automation Letters}
-}
+@ARTICLE{10037203,
+  author={Anastasiou, Dimitrios and Jin, Yueming and Stoyanov, Danail and Mazomenos, Evangelos},
+  journal={IEEE Robotics and Automation Letters}, 
+  title={Keep Your Eye on the Best: Contrastive Regression Transformer for Skill Assessment in Robotic Surgery}, 
+  year={2023},
+  volume={8},
+  number={3},
+  pages={1755-1762},
+  doi={10.1109/LRA.2023.3242466}}
+
 ```
