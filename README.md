@@ -32,7 +32,7 @@ two executions and encode information indicative of suboptimal
 execution/errors, without requiring explicit error annotations.
 This is validated against manual error annotations from
 [Hutchinson et. al](https://arxiv.org/abs/2106.11962), and can be exploited for providing targeted feedback and
-real-time assessment to trainees. Example video [link](https://liveuclac-my.sharepoint.com/:v:/g/personal/rmapdan_ucl_ac_uk/EQMDTsQqhpBFmnzlMPCEyuwBU8V8-ev6rAgDlh7RG6e9Ng?e=tbDXsz).
+real-time assessment to trainees.
 
 ### Packages
 To set up a conda environment using the provided env.yaml file, simply run:
@@ -42,9 +42,9 @@ conda env create -f env.yml
 ```
 
 ### Data preparation
-We provide the extracted features from the ResNet-18 (resnet18_ftrs.zip). To request them, please send an email to <dimitrios.anastasiou.21@ucl.ac.uk>.
+We provide the extracted features from the ResNet-18 (resnet18_ftrs.zip). To request them, please send an email to <dimanasta96@gmail.com>.
 
-Also, follow this [link](https://liveuclac-my.sharepoint.com/:u:/g/personal/rmapdan_ucl_ac_uk/EdkZJGdptQ5Bpf_1YdV8z60Bwej1wQXu0FnOiq9gY_UWBA?e=4VAvbk) and download splits.zip. This file contains .csv files specifying the train and test samples along with their GRS labels for each fold of the cross-validation schemes and tasks.
+Also, follow this [link](https://drive.google.com/file/d/12Qq5L2oYz4njhXu_7zX1b3x0v5frwC2Z/view?usp=sharing) and download splits.zip. This file contains .csv files specifying the train and test samples along with their GRS labels for each fold of the cross-validation schemes and tasks.
 
 Place resnet18_ftrs.zip and splits.zip in the root directory and unzip them. Then, your file structure should look like this:
 ```
